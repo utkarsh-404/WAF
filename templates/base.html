@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Application Firewall Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/login">Login</a>
+                <a href="/ping">Ping Test</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search vulnerabilities...">
+                <button onclick="scrollToSection()">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="banner">
+        <h1>Web Application Firewall</h1>
+        <p>Protecting against modern web vulnerabilities</p>
+    </header>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
