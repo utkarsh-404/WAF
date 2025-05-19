@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section id="waf-intro" class="content-section">
+        <h2>What is a WAF?</h2>
+        <p>A Web Application Firewall (WAF) protects web applications by filtering and monitoring HTTP traffic...</p>
+    </section>
+
+    <section id="sql-injection" class="content-section">
+        <h2>SQL Injection Protection</h2>
+        <p>SQL injection is a code injection technique that might destroy your database...</p>
+        <div class="example">
+            <h3>Example Attack:</h3>
+            <code>' OR 1=1 --</code>
+            <p>Our WAF blocks this by detecting SQL keywords and suspicious patterns</p>
+        </div>
+    </section>
+
+    <section id="command-injection" class="content-section">
+        <h2>Command Injection Protection</h2>
+        <p>Command injection attacks exploit vulnerabilities to execute OS commands...</p>
+    </section>
+
+    <section id="xss" class="content-section">
+        <h2>XSS Protection</h2>
+        <p>Cross-Site Scripting (XSS) allows attackers to inject client-side scripts...</p>
+    </section>
+{% endblock %}
