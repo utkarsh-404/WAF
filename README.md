@@ -17,7 +17,7 @@ A practical demonstration of a Web Application Firewall protecting against commo
   - Path Traversal
 - Interactive demo forms
 - Secure backend implementation
-- Detailed vulnerability explanations
+- Responsive Search Bar
 
 ## Prerequisites
 
