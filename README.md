@@ -107,6 +107,3 @@ This is a demonstration project only. Do not use with:
 - Real user data
 - Production systems
 - Sensitive information
-```
-
-This README focuses on local setup and testing while maintaining professional documentation standards. You can add a screenshot.png later to showcase your project's interface.
