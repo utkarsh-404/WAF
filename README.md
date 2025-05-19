@@ -29,8 +29,8 @@ A practical demonstration of a Web Application Firewall protecting against commo
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/webapp-waf.git
-cd webapp-waf
+git clone https://github.com/utkarsh-404/WAF.git
+cd WAF
 ```
 
 2. **Install dependencies**
