@@ -5,7 +5,7 @@
 
 A practical demonstration of a Web Application Firewall protecting against common web vulnerabilities like SQL Injection, Command Injection, and XSS attacks.
 
-![WAF Demo Screenshot](screenshot.png)
+![WAF Demo Screenshot](static/screenshot.jpg)
 
 ## Features
 
